@@ -1,3 +1,5 @@
+@use "/css/layout";
+
 .navigationWrapper {
   position: fixed;
   top: 0;
@@ -7,18 +9,27 @@
 }
 
 .navigationInner {
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-rows: max-content;
-  grid-column-gap: 20px;
-  justify-items: center;
-  justify-content: center;
   padding: 20px;
-  align-items: center;
+  display: grid;
+  grid-template-columns: max-content 1fr;
 
   p,
   a {
     text-transform: uppercase;
+  }
+}
+
+.desktopNavigationLinks {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-rows: max-content;
+  grid-column-gap: 20px;
+  justify-items: end;
+  justify-content: end;
+  align-items: center;
+
+  @media (max-width: layout.$tabletWidth) {
+    display: none;
   }
 }
 
@@ -33,4 +44,79 @@
     font-size: 14px;
     text-transform: none;
   }
+}
+
+.mobileMenu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  background: var(--lightPurple);
+  transform: translateX(110%);
+  transition: all 0.5s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.mobileMenuInner {
+  padding: 20px;
+}
+
+.mobileMenuControls {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  justify-items: end;
+  align-items: center;
+}
+
+.mobileSocialLinks {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 10px;
+  p {
+    font-size: 14px;
+  }
+}
+
+.mobileMenuToggle {
+  border: none;
+  background: none;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: all 0.5s;
+
+  svg {
+    transition: all 0.5s;
+  }
+
+  &:hover {
+    svg {
+      fill: #fff;
+      color: #fff;
+    }
+  }
+}
+
+.mobileMenuHamburger {
+  position: absolute;
+  right: 20px;
+  top: 17px;
+  display: none;
+
+  @media (max-width: layout.$tabletWidth) {
+    display: block;
+  }
+}
+
+.mobileMenuOpen {
+  transform: translateX(0);
+}
+
+.menuList {
+  padding: 20px 30px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 30px;
 }
