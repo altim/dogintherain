@@ -25,7 +25,7 @@ export default function Home() {
         <div className={styles.tripleColumn}>
           <div className={styles.fullWidth}>
             <div className={styles.boxCentered}>
-              <h2>Let's make it $RAIN</h2>
+              <h2>Lets make it $RAIN</h2>
             </div>
             <div className={styles.tripleColumn}>
               <div className={styles.boxCentered}>
