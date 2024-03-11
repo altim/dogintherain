@@ -1,3 +1,5 @@
+@use "/css/layout";
+
 :root {
   --gray: #222831;
   --gray2: #393e46;
@@ -12,8 +14,19 @@ body {
   background: var(--purple);
 }
 
+.page {
+  padding-top: 85px;
+  @extend %grid;
+}
+
 p,
 a {
   color: var(--textColor);
   font-size: 18px;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--textColor);
 }
