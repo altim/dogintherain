@@ -87,6 +87,10 @@
   cursor: pointer;
   transition: all 0.5s;
 
+  &:focus-visible {
+    outline: none;
+  }
+
   svg {
     transition: all 0.5s;
   }

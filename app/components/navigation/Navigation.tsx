@@ -86,7 +86,6 @@ export default function Navigation() {
             </div>
           </div>
           <div className={styles.menuList}>
-            <Link href={"/"}>DogInTheRain</Link>
             <Link href={"/biy"}>Buy DogInTheRain</Link>
             <div className={styles.mobileSocialLinks}>
               <p>Vibe with us:</p>
