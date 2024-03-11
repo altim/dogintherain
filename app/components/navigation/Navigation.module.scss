@@ -1,0 +1,36 @@
+.navigationWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--lightPurple);
+}
+
+.navigationInner {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-rows: max-content;
+  grid-column-gap: 20px;
+  justify-items: center;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+
+  p,
+  a {
+    text-transform: uppercase;
+  }
+}
+
+.socialLinks {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  align-items: center;
+  grid-column-gap: 10px;
+
+  p {
+    font-size: 14px;
+    text-transform: none;
+  }
+}

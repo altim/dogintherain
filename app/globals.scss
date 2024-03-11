@@ -1,0 +1,19 @@
+:root {
+  --gray: #222831;
+  --gray2: #393e46;
+  --textColor: #fff;
+  --purple: #27005d;
+  --lightPurple: #9400ff;
+  --blue: #aed2ff;
+  --lightBlue: #e4f1ff;
+}
+
+body {
+  background: var(--purple);
+}
+
+p,
+a {
+  color: var(--textColor);
+  font-size: 18px;
+}
