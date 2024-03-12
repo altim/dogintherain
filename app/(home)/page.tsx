@@ -40,50 +40,42 @@ export default function Home() {
       </div>
 
       <div className={styles.section}>
-        <div className={styles.quadrupleColumn}>
-          <div className={styles.boxCentered}>
-            <Link
-              href={config.website}
-              target={"_blank"}
-              className={styles.iconLink}
-            >
-              <FaGlobe size={40} />
-              Website
-            </Link>
-          </div>
+        <div className={styles.socialIcons}>
+          <Link
+            href={config.website}
+            target={"_blank"}
+            className={styles.iconLink}
+          >
+            <FaGlobe size={40} />
+            Website
+          </Link>
 
-          <div className={styles.boxCentered}>
-            <Link
-              href={config.twitter}
-              target={"_blank"}
-              className={styles.iconLink}
-            >
-              <FaXTwitter size={40} />
-              X/Twitter
-            </Link>
-          </div>
+          <Link
+            href={config.twitter}
+            target={"_blank"}
+            className={styles.iconLink}
+          >
+            <FaXTwitter size={40} />
+            X/Twitter
+          </Link>
 
-          <div className={styles.boxCentered}>
-            <Link
-              href={config.telegram}
-              target={"_blank"}
-              className={styles.iconLink}
-            >
-              <FaTelegram size={40} />
-              Telegram
-            </Link>
-          </div>
+          <Link
+            href={config.telegram}
+            target={"_blank"}
+            className={styles.iconLink}
+          >
+            <FaTelegram size={40} />
+            Telegram
+          </Link>
 
-          <div className={styles.boxCentered}>
-            <Link
-              href={config.dexscreener}
-              target={"_blank"}
-              className={styles.iconLink}
-            >
-              <FaToolbox size={40} />
-              DexScreener
-            </Link>
-          </div>
+          <Link
+            href={config.dexscreener}
+            target={"_blank"}
+            className={styles.iconLink}
+          >
+            <FaToolbox size={40} />
+            DexScreener
+          </Link>
         </div>
       </div>
       <div className={styles.section}>

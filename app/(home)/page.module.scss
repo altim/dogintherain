@@ -84,6 +84,20 @@
   font-size: 28px !important;
 }
 
+.socialIcons {
+  display: grid;
+  grid-template-columns: repeat(4, max-content);
+  grid-gap: 40px;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  width: 100%;
+
+  @media (max-width: layout.$tabletWidth) {
+    grid-template-columns: repeat(2, max-content);
+  }
+}
+
 .iconLink {
   display: grid;
   grid-template-columns: max-content;
