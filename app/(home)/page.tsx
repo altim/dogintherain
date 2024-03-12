@@ -20,7 +20,11 @@ export default function Home() {
               height={461}
               alt={"DogInTheRain"}
             />
-            <Button id={"buy"} name={`🐾 Buy ${config.name} 🐾`} />
+            <Button
+              id={"buy"}
+              name={`🐾 Buy ${config.name} 🐾`}
+              className={styles.heroBtn}
+            />
           </div>
         </div>
       </div>
