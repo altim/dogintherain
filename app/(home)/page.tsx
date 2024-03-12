@@ -97,7 +97,7 @@ export default function Home() {
                   height={1024}
                 />
                 <p>
-                  🌧 Invest in DogeRainCoin and watch your portfolio showered
+                  🌧 Invest in DogInTheRain and watch your portfolio showered
                   with success, just like our fearless canine friend embracing
                   the raindrops!
                 </p>
@@ -124,7 +124,7 @@ export default function Home() {
                 />
                 <p>
                   💰 Don&apos;t chase the bull, don&apos;t fear the bear – ride
-                  the rain with DogeRainCoin! Our doggy mascot knows how to
+                  the rain with DogInTheRain! Our doggy mascot knows how to
                   weather the crypto storms and still wag its tail.
                 </p>
               </div>
