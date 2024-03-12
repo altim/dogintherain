@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import classNames from "classnames";
 import Marquee from "react-fast-marquee";
+import { FaXTwitter, FaTelegram, FaToolbox, FaGlobe } from "react-icons/fa6";
 
 export default function Navigation() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -22,10 +23,10 @@ export default function Navigation() {
                 <p>Vibe with us:</p>
               </div>
               <Link href={"https://twitter.com/home"} target={"_blank"}>
-                Twitter
+                <FaXTwitter size={24} />
               </Link>
               <Link href={"/https://web.telegram.org/a/"} target={"_blank"}>
-                Telegram
+                <FaTelegram size={24} />
               </Link>
             </div>
           </div>
@@ -92,10 +93,10 @@ export default function Navigation() {
             <div className={styles.mobileSocialLinks}>
               <p>Vibe with us:</p>
               <Link href={"https://twitter.com/home"} target={"_blank"}>
-                Twitter
+                <FaXTwitter size={24} /> X/Twitter
               </Link>
               <Link href={"/https://web.telegram.org/a/"} target={"_blank"}>
-                Telegram
+                <FaTelegram size={24} /> Telegram
               </Link>
             </div>
           </div>
