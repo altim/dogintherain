@@ -44,6 +44,24 @@
   }
 }
 
+.quadrupleColumn {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 25px;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  width: 100%;
+
+  @media (max-width: layout.$tabletWidth) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (max-width: layout.$mobileWidth) {
+    grid-template-columns: 1fr;
+  }
+}
+
 .boxCentered {
   display: grid;
   grid-template-columns: 1fr;
@@ -60,4 +78,39 @@
 .responsiveImage {
   max-width: 100%;
   height: auto;
+}
+
+.iconLink {
+  display: grid;
+  grid-template-columns: max-content;
+  align-items: center;
+  justify-items: center;
+  grid-row-gap: 10px;
+}
+
+.contractAddress {
+  text-align: center;
+
+  @media (max-width: layout.$tabletWidth) {
+    font-size: 24px;
+  }
+}
+
+.infoBox {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 20px;
+  justify-items: center;
+  text-align: center;
+  padding: 30px;
+
+  img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  p {
+    font-size: 24px;
+  }
 }

@@ -19,15 +19,26 @@ body {
   @extend %grid;
 }
 
-p,
+p {
+  color: var(--textColor);
+  font-size: 24px;
+}
+
 a {
   color: var(--textColor);
-  font-size: 18px;
+  font-size: 24px;
+  text-decoration: none;
+  transition: all 0.4s;
+
+  &:hover {
+    color: var(--blue);
+  }
 }
 
 p {
   margin: 0;
   padding: 0;
+  line-height: 1.5em;
 }
 
 h1,
@@ -38,14 +49,26 @@ h3 {
 
 h1 {
   font-size: 48px;
+
+  @media (max-width: layout.$tabletWidth) {
+    font-size: 40px;
+  }
 }
 
 h2 {
   font-size: 40px;
+
+  @media (max-width: layout.$tabletWidth) {
+    font-size: 32px;
+  }
 }
 
 h3 {
   font-size: 32px;
+
+  @media (max-width: layout.$tabletWidth) {
+    font-size: 24px;
+  }
 }
 
 .rounded {

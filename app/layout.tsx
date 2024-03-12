@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
-import { Comic_Neue } from "next/font/google";
+import { Architects_Daughter } from "next/font/google";
 import "./globals.scss";
 import Navigation from "@/app/components/navigation/Navigation";
 
-const inter = Comic_Neue({ subsets: ["latin"], weight: ["300", "400", "700"] });
+const inter = Architects_Daughter({
+  subsets: ["latin"],
+  weight: ["400"],
+});
 
 export const metadata: Metadata = {
   title: "Dog in the rain",
