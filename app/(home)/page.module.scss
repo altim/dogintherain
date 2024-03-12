@@ -82,6 +82,10 @@
 
 .heroBtn {
   font-size: 28px !important;
+
+  @media (max-width: layout.$tabletWidth) {
+    font-size: 20px !important;
+  }
 }
 
 .socialIcons {
