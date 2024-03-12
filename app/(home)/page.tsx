@@ -20,7 +20,7 @@ export default function Home() {
               height={461}
               alt={"DogInTheRain"}
             />
-            <Button id={"buy"} name={`Buy ${config.name}`} />
+            <Button id={"buy"} name={`🐾 Buy ${config.name} 🐾`} />
           </div>
         </div>
       </div>
@@ -97,9 +97,9 @@ export default function Home() {
                   height={1024}
                 />
                 <p>
-                  Invest in DogeRainCoin and watch your portfolio showered with
-                  success, just like our fearless canine friend embracing the
-                  raindrops!
+                  🌧 Invest in DogeRainCoin and watch your portfolio showered
+                  with success, just like our fearless canine friend embracing
+                  the raindrops!
                 </p>
               </div>
               <div className={styles.infoBox}>
@@ -110,9 +110,9 @@ export default function Home() {
                   height={1024}
                 />
                 <p>
-                  Our meme coin makes a splash in the crypto world just like our
-                  doggy in the rain – no umbrellas needed, just profits pouring
-                  in!
+                  🐾 Our meme coin makes a splash in the crypto world just like
+                  our doggy in the rain – no umbrellas needed, just profits
+                  pouring in!
                 </p>
               </div>
               <div className={styles.infoBox}>
@@ -123,9 +123,9 @@ export default function Home() {
                   height={1024}
                 />
                 <p>
-                  Don&apos;t chase the bull, don&apos;t fear the bear – ride the
-                  rain with DogeRainCoin! Our doggy mascot knows how to weather
-                  the crypto storms and still wag its tail.
+                  💰 Don&apos;t chase the bull, don&apos;t fear the bear – ride
+                  the rain with DogeRainCoin! Our doggy mascot knows how to
+                  weather the crypto storms and still wag its tail.
                 </p>
               </div>
 
@@ -137,7 +137,7 @@ export default function Home() {
                   height={1024}
                 />
                 <p>
-                  The only coin where ruff market conditions turn into a
+                  🚀 The only coin where ruff market conditions turn into a
                   downpour of profits. Let&apos;s splash into the future
                   together!
                 </p>
