@@ -82,7 +82,9 @@ export default function Home() {
         <div className={styles.tripleColumn}>
           <div className={styles.fullWidth}>
             <div className={styles.boxCentered}>
-              <h2>Let the $RAIN of riches begin!</h2>
+              <h2 className={styles.sectionTitle}>
+                Let the $RAIN of riches begin!
+              </h2>
             </div>
             <div className={styles.doubleColumn}>
               <div className={styles.infoBox}>
