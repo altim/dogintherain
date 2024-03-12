@@ -105,13 +105,13 @@ export default function Navigation() {
         <Marquee>
           <p>
             🌧🌧🌧️ Make it Rain with DogInTheRain! 🐾🐾🐾 Join the Crypto Splash
-            Party – Invest Now for a Downpour of Profits! ☔️☔️☔️ Don&apos;t Miss
-            Out on the Doggy Deluge – Grab Your Coins Before the Storm! 🚀🚀🚀
-            Let the Rain of Riches Begin – DogInTheRain, Where Every Drop
-            Counts! 💰💰💰 Wet Noses, Wet Pockets – Secure Your Share of the Wet
-            and Wild Crypto Adventure! 💦💦💦 Dive into the Future, Ride the
-            Rain, and Watch Your Investment Bloom! 🌈🌈🌈 Invest Smart, Invest
-            Funny – DogInTheRain: The Humorous Gateway to Financial Shower!
+            Party – Invest Now for a Downpour of Profits! ☔️☔️☔️ Grab Your Coins
+            Before the Storm! 🚀🚀🚀 Let the Rain of Riches Begin –
+            DogInTheRain, Where Every Drop Counts! 💰💰💰 Wet Noses, Wet Pockets
+            – Secure Your Share of the Wet and Wild Crypto Adventure! 💦💦💦
+            Ride the Rain, and Watch Your Investment Bloom! 🌈🌈🌈 Invest Smart,
+            Invest Funny – DogInTheRain: The Humorous Gateway to Financial
+            Shower!
           </p>
         </Marquee>
       </div>
