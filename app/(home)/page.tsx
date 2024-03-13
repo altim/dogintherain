@@ -2,7 +2,7 @@ import styles from "./page.module.scss";
 import Image from "next/image";
 import Button from "@/app/components/button/Button";
 import classNames from "classnames";
-import { FaXTwitter, FaTelegram, FaToolbox, FaGlobe } from "react-icons/fa6";
+import { FaXTwitter, FaTelegram, FaChartLine, FaGlobe } from "react-icons/fa6";
 import { config } from "../../data/config";
 import Link from "next/link";
 
@@ -73,7 +73,7 @@ export default function Home() {
             target={"_blank"}
             className={styles.iconLink}
           >
-            <FaToolbox size={40} />
+            <FaChartLine size={40} />
             DexScreener
           </Link>
         </div>
