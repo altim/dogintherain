@@ -16,10 +16,10 @@ export default function Navigation() {
     <>
       <div className={styles.navigationWrapper}>
         <div className={styles.navigationInner}>
-          <Link href={"/"}>{config.name}</Link>
+          <Link href={"/"}>{config.nameShort}</Link>
           <div className={styles.desktopNavigationLinks}>
             <Link href={config.buyLink} target={"_blank"}>
-              Buy {config.name}
+              Buy {config.nameShort}
             </Link>
             <div className={styles.socialLinks}>
               <div>
