@@ -1,8 +1,7 @@
 import styles from "./page.module.scss";
 import Image from "next/image";
 import Button from "@/app/components/button/Button";
-import classNames from "classnames";
-import { FaXTwitter, FaTelegram, FaChartLine, FaGlobe } from "react-icons/fa6";
+import { FaChartLine, FaGlobe, FaTelegram, FaXTwitter } from "react-icons/fa6";
 import { config } from "../../data/config";
 import Link from "next/link";
 
@@ -15,14 +14,14 @@ export default function Home() {
             <h1>{config.name}</h1>
             <Image
               className={styles.heroImage}
-              src={"/assets/fatass.jpg"}
+              src={"/assets/dog.jpg"}
               width={1024}
               height={1024}
               alt={config.name}
             />
             <Button
               id={"buy"}
-              name={`🤗 GRAB THAT ${config.name} 🤗`}
+              name={`🐾 Buy ${config.name} 🐾`}
               className={styles.heroBtn}
               href={config.buyLink}
               target={"_blank"}

@@ -3,7 +3,7 @@ export const config = {
   nameShort: "DogInTheRain",
   ticker: "$RAIN",
   contractAddress: "0x13432412424234234234234234",
-  website: "https://www.dogintherain.com",
+  website: "https://raydium.io/",
   twitter: "https://twitter.com",
   telegram: "https://telegram.com",
   dexscreener: "https://dexscreener.com",
