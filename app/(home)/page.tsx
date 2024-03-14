@@ -11,19 +11,21 @@ export default function Home() {
     <>
       <div className={styles.section}>
         <div className={styles.singleColumn}>
-          <div className={styles.boxCentered}>
-            <h1>Dog In The Rain</h1>
+          <div className={styles.hero}>
+            <h1>{config.name}</h1>
             <Image
-              className={classNames("rounded", styles.responsiveImage)}
-              src={"/assets/dog.jpg"}
-              width={764}
-              height={461}
-              alt={"DogInTheRain"}
+              className={styles.heroImage}
+              src={"/assets/fatass.jpg"}
+              width={1024}
+              height={1024}
+              alt={config.name}
             />
             <Button
               id={"buy"}
-              name={`🐾 Buy ${config.name} 🐾`}
+              name={`🤗 GRAB THAT ${config.name} 🤗`}
               className={styles.heroBtn}
+              href={config.buyLink}
+              target={"_blank"}
             />
           </div>
         </div>

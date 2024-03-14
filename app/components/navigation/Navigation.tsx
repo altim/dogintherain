@@ -5,6 +5,7 @@ import { useState } from "react";
 import classNames from "classnames";
 import Marquee from "react-fast-marquee";
 import { FaXTwitter, FaTelegram, FaToolbox, FaGlobe } from "react-icons/fa6";
+import { config } from "@/data/config";
 
 export default function Navigation() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -15,17 +16,19 @@ export default function Navigation() {
     <>
       <div className={styles.navigationWrapper}>
         <div className={styles.navigationInner}>
-          <Link href={"/"}>DogInTheRain</Link>
+          <Link href={"/"}>{config.name}</Link>
           <div className={styles.desktopNavigationLinks}>
-            <Link href={"/biy"}>Buy DogInTheRain</Link>
+            <Link href={config.buyLink} target={"_blank"}>
+              Buy {config.name}
+            </Link>
             <div className={styles.socialLinks}>
               <div>
                 <p>Vibe with us:</p>
               </div>
-              <Link href={"https://twitter.com/home"} target={"_blank"}>
+              <Link href={config.twitter} target={"_blank"}>
                 <FaXTwitter size={24} />
               </Link>
-              <Link href={"/https://web.telegram.org/a/"} target={"_blank"}>
+              <Link href={config.telegram} target={"_blank"}>
                 <FaTelegram size={24} />
               </Link>
             </div>
@@ -89,7 +92,9 @@ export default function Navigation() {
             </div>
           </div>
           <div className={styles.menuList}>
-            <Link href={"/biy"}>Buy DogInTheRain</Link>
+            <Link href={config.buyLink} target={"_blank"}>
+              Buy {config.name}
+            </Link>
             <div className={styles.mobileSocialLinks}>
               <p>Vibe with us:</p>
               <Link href={"https://twitter.com/home"} target={"_blank"}>
